@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: repeat(5, 1fr); /* 5 rows */
+  gap: 10px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+  background-color: #f0f0f0; /* Background color for the grid container */
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50; /* Background color for grid items */
+  color: white;
+  font-size: 20px;
+  border-radius: 5px; /* Rounded corners for grid items */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for grid items */
+}
+
+/* #title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+#box {
+  display: flex;
+}
+
+.buttonBG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonCO {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
